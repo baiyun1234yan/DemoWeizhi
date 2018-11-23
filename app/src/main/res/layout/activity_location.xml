@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--=============================================================================-->
+    <Button
+        android:id="@+id/btn_location_no_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位（没有网络定位）" />
+
+    <TextView
+        android:id="@+id/tv_info_no_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3f30"
+        android:text="具体信息" />
+
+    <TextView
+        android:id="@+id/tv_log_no_net"
+        android:layout_width="match_parent"
+        android:layout_height="350px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_margin="10px"
+        android:background="#666" />
+
+    <!--=============================================================================-->
+    <Button
+        android:id="@+id/btn_location_have_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="定位（有网络定位）" />
+
+    <TextView
+        android:id="@+id/tv_info_have_net"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3f30"
+        android:text="具体信息" />
+
+    <TextView
+        android:id="@+id/tv_log_have_net"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        android:layout_height="350px" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_margin="10px"
+        android:background="#666" />
+
+    <!--=============================================================================-->
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:text="移除监听" />
+
+    <Button
+        android:id="@+id/btn_permission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查权限" />
+
+</LinearLayout>  

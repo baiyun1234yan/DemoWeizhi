@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#03142F">
+
+    <TextView
+        android:id="@+id/tv_user_number"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+
+        android:gravity="center"
+        android:text="1111"
+        android:textColor="#BBDAED" />
+
+    <View
+        android:id="@+id/view_number_list_line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/login_input_line" />
+
+</RelativeLayout>

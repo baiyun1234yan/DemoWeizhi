@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#071830">
+
+    <ImageView
+        android:id="@+id/iv_space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_content"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="#fff">
+
+        <!--滑动-->
+        <RelativeLayout
+            android:id="@+id/rl_slide"
+            android:layout_width="match_parent"
+            android:layout_height="46px"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/iv_slide"
+                android:layout_width="match_parent"
+                android:layout_height="45px"
+                android:layout_centerHorizontal="true"
+                android:scaleX="0.5"
+                android:scaleY="0.25"
+                android:src="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/iv_slide"
+                android:background="#666" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_cross"
+            android:layout_below="@+id/rl_slide"
+            android:background="#fff" />
+
+        <!--退出-->
+        <RelativeLayout
+            android:id="@+id/rl_cross"
+            android:layout_width="match_parent"
+            android:layout_height="112px"
+            android:layout_alignParentBottom="true"
+            android:background="#fff">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#666" />
+
+            <ImageView
+                android:id="@+id/iv_cross"
+                android:layout_width="match_parent"
+                android:layout_height="112px"
+                android:layout_centerHorizontal="true"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:src="@mipmap/ic_launcher" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

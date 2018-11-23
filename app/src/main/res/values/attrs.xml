@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KeyBoardLinearLayout">
+        <attr name="itemHeight" format="dimension"/>//item的行高
+        <attr name="itemTextSize" format="dimension"/>//文字大小
+        <attr name="keyBoardType" format="integer"/>//键盘的类型，不如主界面的键盘和密码的键盘
+    </declare-styleable>
+</resources>

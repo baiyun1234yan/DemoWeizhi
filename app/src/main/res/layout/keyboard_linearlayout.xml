@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--输入键盘-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <GridView
+            android:id="@+id/gr_keyboard_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="3"
+            android:horizontalSpacing="0.5dp"
+            android:numColumns="3"
+            android:background="#6999"
+            android:verticalSpacing="0.5dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_keyboard_del"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/select_key_board_del"
+                android:layout_height="0dp">
+
+                <ImageView
+                    android:id="@+id/iv_keyboard_del"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_launcher_background"
+                    android:scaleY="0.3"
+                    android:scaleX="0.5"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_keyboard_ok"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/select_key_board_ok"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#eee" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

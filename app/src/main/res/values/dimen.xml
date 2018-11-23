@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--登录界面-->
+    <dimen name="login_input_padding">39px</dimen>
+    <dimen name="login_input_icon_size">88px</dimen>
+
+</resources>

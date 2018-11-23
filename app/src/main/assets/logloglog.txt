@@ -1,0 +1,96 @@
+
+======================================================================搜索“扫码支付”=================================================================================
+07-12 10:00:49.022 2821-2935/? I/LogService: 1531360848976,500,2018-07-12 10:00:48.973
+    类 ：ScanActivity
+    日志类型 ：进入页面
+    用户进入扫码支付页面,money:1, unfavorable_money:0
+07-12 10:00:49.127 7315-7315/com.wangpos.by.cashier3 I/ScanActivity: 2018-07-12 10:00:49.126
+    类 ：ScanActivity
+    日志类型 ：记录
+    扫码支付，订单金额：1，待支付金额：1，不优惠金额：0
+07-12 10:00:49.183 2821-2935/? I/LogService: 1531360849130,500,2018-07-12 10:00:49.126
+    类 ：ScanActivity
+    日志类型 ：记录
+    扫码支付，订单金额：1，待支付金额：1，不优惠金额：0
+    1531360849142,500,2018-07-12 10:00:49.139
+    类 ：AccRequestUtils
+    日志类型 ：请求
+    地址:http://servcashier3.wangpos.com/cashier3-serv/comm/ProcessorOrder.create
+    参数:versionName=3.0.3.1; mname=陈金蛋糕店; mcode=214530; versionCode=303100002; en=ee511e85; reqId=5b46b65176edb21c936cc261; nonce=41447353; sign=2e5fbc9ec271f87da699fff31577eb857eca720d; timestamp=1531360849139; data=amount=1; unDiscountableAmount=0; tradeType=1; latitude=40.002723693847656; longitude=116.48758697509766; payType=101; needTransFlag=0; sdkVersion=3001; orderSource=1; ; 
+    请求时间:1531360849139
+07-12 10:00:56.063 7315-7315/com.wangpos.by.cashier3 I/System.out: 扫码支付成功
+07-12 10:00:56.465 7315-7315/com.wangpos.by.cashier3 I/ScanPresenter: 2018-07-12 10:00:56.465
+    类 ：ScanPresenter
+    日志类型 ：记录
+    扫码支付成功结果页
+07-12 10:00:56.481 2821-2935/? I/LogService: 1531360856432,500,2018-07-12 10:00:56.428
+    类 ：SpeakUtils
+    日志类型 ：记录
+    开始播放
+    1531360856439,500,2018-07-12 10:00:56.436
+    类 ：SpeakUtils
+    日志类型 ：记录
+    语音Speaker加入播放队列：支付宝收款0.01元
+    1531360856448,500,2018-07-12 10:00:56.439
+    类 ：SpeakUtils
+    日志类型 ：记录
+    音效Speaker：2131558401--正在播放，等待
+    1531360856466,500,2018-07-12 10:00:56.465
+    类 ：ScanPresenter
+    日志类型 ：记录
+    扫码支付成功结果页
+	
+	==========================================================搜索“解码”===========================================================================================
+	
+
+    扫码中，开始解码
+07-12 11:38:37.336 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.336 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+    111#######reg_gain = 32
+    222#######reg_gain = 32
+    222#######float_gain@@ = 4.000000
+07-12 11:38:37.455 10804-10804/com.wangpos.by.cashier3 I/System.out: 解码：线程池->开启解码线程...
+07-12 11:38:37.457 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码：数组变换耗时：1
+    扫码：对象创建耗时：0
+    扫码中，开始解码
+07-12 11:38:37.458 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.458 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+    扫码：对象创建耗时：0
+    扫码中，开始解码
+07-12 11:38:37.460 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.460 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+    111#######reg_gain = 32
+    222#######reg_gain = 32
+    222#######float_gain@@ = 4.000000
+07-12 11:38:37.581 10804-10804/com.wangpos.by.cashier3 I/System.out: 解码：线程池->开启解码线程...
+07-12 11:38:37.583 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码：对象创建耗时：0
+    扫码中，开始解码
+07-12 11:38:37.584 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.585 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+    扫码：对象创建耗时：0
+    扫码中，开始解码
+07-12 11:38:37.587 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.587 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+07-12 11:38:37.699 10804-10804/com.wangpos.by.cashier3 I/System.out: 解码：线程池->开启解码线程...
+07-12 11:38:37.700 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码：数组变换耗时：1
+    扫码：对象创建耗时：0
+    扫码中，开始解码
+07-12 11:38:37.702 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.702 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+    扫码：对象创建耗时：0
+    扫码中，开始解码
+07-12 11:38:37.704 10804-11345/com.wangpos.by.cashier3 D/扫码中: 解码失败
+07-12 11:38:37.704 10804-11345/com.wangpos.by.cashier3 I/System.out: 扫码结果：解码失败：com.google.zxing.NotFoundException *** null
+    222#######reg_gain = 32
+	
+	
+	
+	
+	
+===========================================================扫码的流程==========================================================================
+	07-12 15:20:57.329 16753-16753/com.wangpos.by.cashier3 D/baiyyy: 我是ScannerComponent类的initCamera
+07-12 15:20:57.360 16753-16753/com.wangpos.by.cashier3 D/baiyyy: 我是ScanActivity类的showCreateOrderSuccess
+07-12 15:20:57.361 16753-16753/com.wangpos.by.cashier3 D/baiyyy: ScannerComponent类的onStartDecode方法
+07-12 15:20:57.772 16753-16753/com.wangpos.by.cashier3 D/baiyyy: 我是ScannerComponent类的initCamera
+07-12 15:20:58.009 16753-16753/com.wangpos.by.cashier3 D/baiyyy: 我是ScannerComponent类的预览对象sds
+

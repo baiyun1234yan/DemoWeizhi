@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="login_input_line">#839FB4</color>//输入框的中间分割线及边框
+    <color name="login_input_text_color">#BBDAED</color>//输入框的文字
+
+    <color name="base_action_bar_bg">#071830</color>//标题栏背景
+
+</resources>

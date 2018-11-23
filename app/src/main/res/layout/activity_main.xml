@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/kbll_keyboard_kt"
+        android:background="#111"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <!--包含用户名的一行-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:id="@+id/iv_user_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/main_user_icon" />
+
+            <TextView
+                android:id="@+id/tv_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/iv_user_icon"
+                android:gravity="center"
+                android:text="未登录"
+                android:textColor="#fff" />
+
+            <ImageView
+                android:id="@+id/iv_calculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/iv_more"
+                android:src="@drawable/main_calculate" />
+
+            <ImageView
+                android:id="@+id/iv_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/main_more" />
+
+
+        </RelativeLayout>
+
+        <!--输入框-->
+        <RelativeLayout
+            android:id="@+id/rl_input_discount_position"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true">
+
+
+            <TextView
+                android:id="@+id/tv_input_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:textColor="#fff"
+                android:textSize="108px" />
+
+            <TextView
+                android:id="@+id/tv_input_amount_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_toLeftOf="@+id/tv_input_amount"
+                android:text="$"
+                android:textColor="#fff"
+                android:textSize="60px" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <bai.bai.bai.demo.kt.KeyBoardLinearLayout
+        android:id="@+id/kbll_keyboard_kt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:itemHeight="80dp"
+        app:itemTextSize="10sp"
+        app:keyBoardType="1" />
+
+
+</RelativeLayout>
